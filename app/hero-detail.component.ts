@@ -8,10 +8,8 @@ import { Hero } from './hero'
         <h2>{{hero.name}} details!</h2>
         <div><label>id: </label>{{hero.id}}</div>
         <label>name: </label>
-        <input [(ngModel)]="hero.name" placeholder="name">
-    <div>
-
-    `
+        <input [(ngModel)]="hero.name" placeholder="name" />
+    <div>`
 })
 
 export class HeroDetailComponent{
